@@ -3,6 +3,8 @@
 
 A MongoDB ObjectId validator for Joi.
 
+[![Build Status](https://magnum.travis-ci.com/pebble/joi-objectid.svg?token=2fGKDUnr1Num4uYLzNYp&branch=master)](https://magnum.travis-ci.com/pebble/joi-objectid)
+
 ## use
 
 `joi-objectid` validates that the value is an alphanumeric string of 24 characters
