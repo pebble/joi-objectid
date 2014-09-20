@@ -1,6 +1,6 @@
 {
   "name": "joi-objectid",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A MongoDB ObjectId validator for Joi",
   "main": "index.js",
   "scripts": {

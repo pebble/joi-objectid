@@ -1,7 +1,7 @@
 
 # joi-objectid
 
-Exports a MongoDB ObjectId validator for Joi.
+A MongoDB ObjectId validator for Joi.
 
 ## use
 
