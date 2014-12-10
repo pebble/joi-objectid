@@ -3,7 +3,7 @@
 
 A MongoDB ObjectId validator for Joi.
 
-[![Build Status](https://magnum.travis-ci.com/pebble/joi-objectid.svg?token=2fGKDUnr1Num4uYLzNYp&branch=master)](https://magnum.travis-ci.com/pebble/joi-objectid)
+[![Build Status](https://travis-ci.org/pebble/joi-objectid.svg?branch=master)](https://travis-ci.org/pebble/joi-objectid)
 
 ## use
 
