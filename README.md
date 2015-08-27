@@ -14,7 +14,7 @@ It's used just like you'd use any other `Joi` type.
 
 ```js
 var Joi = require('joi');
-Joi.objectId = require('joi-objectid');
+Joi.objectId = require('joi-objectid')(Joi);
 
 var schema = {
   id: Joi.objectId()
@@ -34,7 +34,7 @@ npm install joi-objectid --save
 
 #### running tests
 
-- `make test` runs tests
+- `make test`
 
 ## Sponsored by
 
