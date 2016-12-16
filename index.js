@@ -9,6 +9,6 @@ module.exports = function joiObjectId(Joi, message) {
     message = defaultMessage;
   }
   return function objectId() {
-    return Joi.string().regex(/^[0-9a-fA-F]{24}$/, defaultMessage);
+    return Joi.string().regex(/^[0-9a-fA-F]{24}$/, message);
   };
 };

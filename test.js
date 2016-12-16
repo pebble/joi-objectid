@@ -42,4 +42,13 @@ describe('joi-objectid', function() {
 
     done();
   });
+
+  it('includes custom message for invalid value', function(done) {
+    var dbId = joiObjectId(Joi, 'database id');
+    var result = Joi.validate('blah', dbId());
+
+    assert(result.error);
+    assert(result.error.message.indexOf('database id') >= 0);
+    done();
+  });
 });
