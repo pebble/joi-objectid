@@ -10,7 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "joi": "^4.6.2",
-    "mocha": "^1.21.4"
+    "mocha": "^3.2.0"
   },
   "dependencies": {}
 }
